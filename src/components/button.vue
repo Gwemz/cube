@@ -8,7 +8,7 @@ export default {
     name:'btn',
     data(){
         return{
-
+            
         }
     }
 }

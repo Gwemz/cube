@@ -1,4 +1,4 @@
-# winter
+# Cube
 
 > A Vue.js project
 
