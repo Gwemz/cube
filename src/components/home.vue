@@ -17,7 +17,8 @@ export default {
                 {title:'Loading',link:'/loading'},
                 {title:'Tip',link:'/tip'},
                 {title:'ToolBar',link:'/ToolBar'},
-                {title:'TabBar',link:'/tabbar'}
+                {title:'TabBar',link:'/tabbar'},
+                {title:'tab-composite',link:'/composite'}
             ]
         }
     }

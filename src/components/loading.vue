@@ -1,6 +1,8 @@
 <template>
     <div class="loading">
-        loading
+        <cube-loading></cube-loading>
+        <cube-loading :size="28"></cube-loading>
+        <cube-loading :size="40"></cube-loading>
     </div>
 </template>
 <script>
@@ -13,4 +15,12 @@ export default {
     }
 }
 </script>
+<style scoped>
+.cube-loading{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+}    
+</style>
+
 
