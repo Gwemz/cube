@@ -23,7 +23,8 @@ export default {
                 {title:'checkboxgroup',link:'/checkboxgroup'},
                 {title:'radio',link:'/radio'},
                 {title:'input',link:'/input'},
-                {title:'select',link:'/select'}
+                {title:'select',link:'/select'},
+                {title:'validator',link:'/validator'}
             ]
         }
     }

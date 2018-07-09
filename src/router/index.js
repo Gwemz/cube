@@ -13,6 +13,7 @@ import checkboxgroup from '@/components/checkboxgroup'
 import radio from '@/components/radio'
 import input from '@/components/input'
 import select from '@/components/select'
+import validator from '@/components/validator'
 
 Vue.use(Router)
 
@@ -77,6 +78,11 @@ export default new Router({
       path: '/select',
       name: 'select',
       component: select
+    },
+    {
+      path: '/validator',
+      name: 'validator',
+      component: validator
     }
   ]
 })
