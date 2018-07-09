@@ -18,7 +18,12 @@ export default {
                 {title:'Tip',link:'/tip'},
                 {title:'ToolBar',link:'/ToolBar'},
                 {title:'TabBar',link:'/tabbar'},
-                {title:'tab-composite',link:'/composite'}
+                {title:'tab-composite',link:'/composite'},
+                {title:'checkbox',link:'/checkbox'},
+                {title:'checkboxgroup',link:'/checkboxgroup'},
+                {title:'radio',link:'/radio'},
+                {title:'input',link:'/input'},
+                {title:'select',link:'/select'}
             ]
         }
     }

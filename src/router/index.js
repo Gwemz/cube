@@ -8,6 +8,11 @@ import tip from '@/components/tip'
 import toolbar from '@/components/toolbar'
 import tabbar from '@/components/tabbar'
 import composite from '@/components/tab-composite'
+import checkbox from '@/components/checkbox'
+import checkboxgroup from '@/components/checkboxgroup'
+import radio from '@/components/radio'
+import input from '@/components/input'
+import select from '@/components/select'
 
 Vue.use(Router)
 
@@ -47,6 +52,31 @@ export default new Router({
       path: '/composite',
       name: 'composite',
       component: composite
+    },
+    {
+      path: '/checkbox',
+      name: 'checkbox',
+      component: checkbox
+    },
+    {
+      path: '/checkboxgroup',
+      name: 'checkboxgroup',
+      component: checkboxgroup
+    },
+    {
+      path: '/radio',
+      name: 'radio',
+      component: radio
+    },
+    {
+      path: '/input',
+      name: 'input',
+      component: input
+    },
+    {
+      path: '/select',
+      name: 'select',
+      component: select
     }
   ]
 })
